@@ -1,0 +1,37 @@
+<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
+<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/citation.png" />
+<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title2.png" />
+
+<div class="row">
+	<div class="col-sm-4">
+		Partenaires
+		<ul>
+			<li><a href="voiture.com">voiture.com</a></li>
+			<li><a href="pizza.com">pizza.com</a></li>
+			<li><a href="matoiture.com">matoiture.com</a></li>
+			<li><a href="immobilierseo.com">immobilierseo.com</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-4">
+		Annuaires liste 1
+		<ul>
+			<li><a href="annuaireagence.com">annuaireagence.com</a></li>
+			<li><a href="annuaireseo.com">annuaireseo.com</a></li>
+			<li><a href="annuairemarketing.com">annuairemarketing.com</a></li>
+			<li><a href="123seoture.com">123seo.com</a></li>
+		</ul>
+	</div>
+	<div class="col-sm-4">
+		Annuaires liste 2
+		<ul>
+			<li><a href="betterseo.com">betterseo.com</a></li>
+			<li><a href="ameliorerseo.com">ameliorerseo.com</a></li>
+			<li><a href="seojuicelien.com">seojuicelien.com</a></li>
+			<li><a href="meilleursliens.com">meilleursliens.com</a></li>
+		</ul>
+	</div>
+</div>
+
+
+
+<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span

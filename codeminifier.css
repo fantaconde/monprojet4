@@ -651,9 +651,7 @@ h4 {
 	background-color: #fff;
 }
 .lepremierp {
-	font-size: 18px;
-	padding-left: 50px;
-	padding-right: 50px;
+	font-size: 22px;
 }
 .bgc-dark-slate-blue {
 	background-color: #364577;
@@ -690,13 +688,13 @@ h4 {
 	border-color: #364577 !important;
 }
 .text-center {
-	font-size: 16px;
+	font-size: 19px;
 }
 .secondP {
-	font-size: 18px;
+	font-size: 21px;
 }
 .troisiemep {
-	font-size: 18px;
+	font-size: 21px;
 }
 .bg-dots-bg {
 	background-image: url(img/dots-bg.png);
@@ -945,16 +943,4 @@ h4 {
 }
 .leliennav :hover {
 	color: #a5a3a3;
-}
-
-.imagephoto {
-	width: 100%;
-}
-
-button:focus {
-	color: #000;
-}
-
-li:focus {
-	color: #000;
 }
