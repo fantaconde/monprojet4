@@ -9,7 +9,6 @@ body {
 a,
 button {
 	transition: all 0.3s ease-in-out;
-	outline: none !important;
 }
 a:hover {
 	text-decoration: none;
@@ -41,6 +40,10 @@ a:hover {
 .bloc-lg {
 	padding: 50px;
 }
+
+#blo-6 {
+	background-color: #c27956;
+}
 .bloc-md {
 	padding: 50px;
 }
@@ -69,7 +72,6 @@ a:hover {
 	background: top no-repeat;
 }
 .bloc-bg-texture::before {
-	content: "";
 	background-size: 2px 2px;
 	position: absolute;
 	top: 0;
@@ -244,6 +246,9 @@ a:hover {
 #bloc-1-hero h1 {
 	font-size: 32px;
 }
+.couleurblanche {
+	color: white;
+}
 .navbar {
 	margin-bottom: 0;
 	z-index: 1;
@@ -268,7 +273,7 @@ a:hover {
 	margin: 0;
 }
 .navbar .nav {
-	margin-right: 80px;
+
 	float: right;
 	z-index: 1;
 }
@@ -377,7 +382,7 @@ nav .caret {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	font-weight: 700;
-	color: #000;
+	color: white;
 }
 .mg-lg {
 	margin-top: 10px;
@@ -385,6 +390,7 @@ nav .caret {
 }
 .btn {
 	margin: 0 5px 5px 0;
+	color: white;
 }
 .btn.pull-right {
 	margin: 0 0 5px 5px;
@@ -395,9 +401,7 @@ nav .caret {
 	color: #fff;
 	background: rgba(0, 0, 0, 0.3);
 }
-button {
-	outline: none !important;
-}
+
 .btn-rd {
 	border-radius: 40px;
 }
@@ -433,6 +437,13 @@ button {
 .form-control {
 	border-color: rgba(0, 0, 0, 0.1);
 	box-shadow: none;
+	height: 40px;
+	width: 100%;
+	max-width: 400px;
+}
+label {
+	display: flex;
+	flex-direction: column;
 }
 .scrollToTop {
 	width: 40px;
@@ -546,13 +557,16 @@ a[data-lightbox]:hover img {
 	color: rgba(0, 0, 0, 0.5);
 	background: none;
 }
+
+.btn-lg {
+	color: white;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -591,7 +605,7 @@ p {
 }
 .cta-hero {
 	margin-top: 22px;
-	color: #ffffff !important;
+	color: #080808 !important;
 	text-transform: uppercase;
 	padding: 12px 28px 12px 28px;
 	font-size: 16px;
@@ -627,7 +641,7 @@ h4 {
 	margin-top: 24px;
 }
 .white {
-	color: #ffffff !important;
+	color: #141414 !important;
 }
 .portfolio-thumb {
 	margin-bottom: 24px;
@@ -662,15 +676,17 @@ h4 {
 	background-color: #f3976c;
 }
 .tc-white {
-	color: white !important;
+	color: #ffff !important;
 }
 .btn-atomic-tangerine {
 	background: #f3976c;
 	color: #fff;
 	border: none;
+	margin: 20px;
 }
+
 .btn-atomic-tangerine:hover {
-	background: #bfb6b2 !important;
+	background: #ca7956 !important;
 	color: #ffffff !important;
 }
 .ltc-white {
@@ -691,6 +707,11 @@ h4 {
 }
 .text-center {
 	font-size: 16px;
+	color: black;
+}
+
+.text-center1 {
+	font-size: 16px;
 }
 .secondP {
 	font-size: 18px;
@@ -708,7 +729,7 @@ h4 {
 	background-image: url(img/agence-la-panthere.jpg);
 }
 .bg-presentation {
-	background-image: url(img/image-de-presentation.bmp);
+	background-image: url(img/imagedecentre.bmp);
 }
 @media (max-width: 1024px) {
 	.bloc {
@@ -798,7 +819,7 @@ h4 {
 	}
 	.navbar.row {
 		margin-left: 0;
-		margin-right: 50px;
+		margin-right: 2px;
 	}
 	.site-navigation {
 		position: inherit;
@@ -923,6 +944,7 @@ h4 {
 }
 .form-group {
 	line-height: 50px;
+	margin: 18px;
 }
 .lesinfosdiv {
 	display: flex;
@@ -951,10 +973,14 @@ h4 {
 	width: 100%;
 }
 
-button:focus {
+input:focus {
 	color: #000;
 }
 
-li:focus {
+button:focus {
 	color: #000;
+}
+.tc-white2 {
+	color: #000;
+	font-size: 18px;
 }
