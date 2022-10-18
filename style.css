@@ -80,7 +80,7 @@ a:hover {
 	right: 0;
 }
 .texture-paper::before {
-	background: url(img/texture-paper.png);
+	background: url(img/images/img/img/texture-paper.webp);
 	background-size: 280px 280px;
 }
 .b-parallax {
@@ -245,6 +245,7 @@ a:hover {
 }
 #bloc-1-hero h1 {
 	font-size: 32px;
+	
 }
 .couleurblanche {
 	color: white;
@@ -578,6 +579,7 @@ a {
 }
 .hero-bloc-text {
 	font-size: 38px;
+	color: black;
 }
 .hero-bloc-text-sub {
 	font-size: 36px;
@@ -640,7 +642,7 @@ h4 {
 	margin-top: 24px;
 }
 .white {
-	color: #141414 !important;
+	color: #000000 !important;
 }
 .portfolio-thumb {
 	margin-bottom: 24px;
@@ -674,8 +676,9 @@ h4 {
 .bgc-atomic-tangerine {
 	background-color: #f3976c;
 }
-.tc-white {
-	color: #ffff !important;
+.text-center.couleurblanche {
+	color: rgb(255, 255, 255) !important;
+	
 }
 .btn-atomic-tangerine {
 	background: #f3976c;
@@ -706,11 +709,12 @@ h4 {
 }
 .text-center {
 	font-size: 16px;
-	color: black;
+	color: black !important; 
 }
 
-.text-center1 {
+.text-center1{
 	font-size: 16px;
+	color: rgb(0, 0, 0);
 }
 .secondP {
 	font-size: 18px;
@@ -719,7 +723,7 @@ h4 {
 	font-size: 18px;
 }
 .bg-dots-bg {
-	background-image: url(img/dots-bg.png);
+	background-image: url(img/dots-bg.webp);
 }
 .bg-lines-h2-bg {
 	background-image: url(img/lines-h2-bg.webp);
@@ -728,7 +732,7 @@ h4 {
 	background-image: url(img/agence-la-panthere.webp);
 }
 .bg-presentation {
-	background-image: url(img/imagedecentre.webp);
+	background-image: url(img/image-de-presentation.webp);
 }
 @media (max-width: 1024px) {
 	.bloc {
@@ -979,7 +983,11 @@ input:focus {
 button:focus {
 	color: #000;
 }
-.tc-white2 {
-	color: #000;
+.tc-white2{
+	color: rgb(255, 255, 255);
 	font-size: 18px;
+}
+
+.leh1{
+	color: white;
 }
